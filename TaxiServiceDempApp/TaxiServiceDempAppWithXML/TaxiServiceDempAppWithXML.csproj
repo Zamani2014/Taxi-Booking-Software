@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C813E276-41C0-4175-BC26-0BE2B7F24077}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TaxiServiceDempAppWithXML</RootNamespace>
+    <AssemblyName>TaxiServiceDempAppWithXML</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Automobiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Automobiles.Designer.cs">
+      <DependentUpon>Automobiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drivers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drivers.Designer.cs">
+      <DependentUpon>Drivers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateIDColumn.cs" />
+    <Compile Include="GetDateTime.cs" />
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reservations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservations.Designer.cs">
+      <DependentUpon>Reservations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripOrderForm.Designer.cs">
+      <DependentUpon>TripOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trips.Designer.cs">
+      <DependentUpon>Trips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripSearch.Designer.cs">
+      <DependentUpon>TripSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserComboBoxData.cs" />
+    <EmbeddedResource Include="Automobiles.resx">
+      <DependentUpon>Automobiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drivers.resx">
+      <DependentUpon>Drivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.Automobiles.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.Customers.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.Drivers.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.MainWindow.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.Reservations.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.TripOrderForm.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.Trips.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithSQLServer.TripSearch.resources" />
+    <EmbeddedResource Include="obj\Debug\TaxiServiceDempAppWithXML.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reservations.resx">
+      <DependentUpon>Reservations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripOrderForm.resx">
+      <DependentUpon>TripOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trips.resx">
+      <DependentUpon>Trips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripSearch.resx">
+      <DependentUpon>TripSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\TaxiServiceDempAppWithSQLServer.exe.config" />
+    <None Include="bin\Debug\TaxiServiceDempAppWithSQLServer.vshost.exe.config" />
+    <None Include="bin\Debug\TaxiServiceDempAppWithSQLServer.vshost.exe.manifest" />
+    <None Include="bin\Debug\TaxiServiceDempAppWithXML.exe.config" />
+    <None Include="bin\Debug\TaxiServiceDempAppWithXML.vshost.exe.config" />
+    <None Include="bin\Debug\TaxiServiceDempAppWithXML.vshost.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\TaxiServiceDempAppWithSQLServer.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\TaxiServiceDempAppWithSQLServer.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\TaxiServiceDempAppWithXML.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\TaxiServiceDempAppWithXML.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\DataSources\UserComboBoxData.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\TaxiServiceDempAppWithSQLServer.exe" />
+    <Content Include="bin\Debug\TaxiServiceDempAppWithSQLServer.pdb" />
+    <Content Include="bin\Debug\TaxiServiceDempAppWithXML.exe" />
+    <Content Include="bin\Debug\TaxiServiceDempAppWithXML.pdb" />
+    <Content Include="bin\Debug\TaxiServiceDempAppWithXML.vshost.exe" />
+    <Content Include="DataFiles\Automobiles.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DataFiles\Customers.xml" />
+    <Content Include="DataFiles\Drivers.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DataFiles\ReservationPerson.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DataFiles\Trip.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DataFiles\Trips.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="obj\Debug\TaxiServiceDempAppWithSQLServer.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TaxiServiceDempAppWithSQLServer.exe" />
+    <Content Include="obj\Debug\TaxiServiceDempAppWithSQLServer.pdb" />
+    <Content Include="obj\Debug\TaxiServiceDempAppWithXML.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TaxiServiceDempAppWithXML.exe" />
+    <Content Include="obj\Debug\TaxiServiceDempAppWithXML.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\TaxiServicesDBDataSet.Designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

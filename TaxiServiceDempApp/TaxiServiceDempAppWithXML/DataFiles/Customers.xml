@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Customers>
+  <Customer>
+    <ID>1234</ID>
+    <FirstName>کامران</FirstName>
+    <LastName>کامرانی</LastName>
+    <MobileNo>9387766554</MobileNo>
+    <TelNo>2133643816</TelNo>
+    <Address>تهران، میدان بسیج</Address>
+    <Description></Description>
+  </Customer>
+  <Customer>
+    <ID>2354</ID>
+    <FirstName>فاطمه</FirstName>
+    <LastName>محمدی</LastName>
+    <MobileNo>9123458765</MobileNo>
+    <TelNo>2187654322</TelNo>
+    <Address>تهران، خیابان کارگر شمالی، شماره 45</Address>
+    <Description></Description>
+  </Customer>
+  <Customer>
+    <ID>5623</ID>
+    <FirstName>علی</FirstName>
+    <LastName>رضیی</LastName>
+    <MobileNo>9357634982</MobileNo>
+    <TelNo>2187788778</TelNo>
+    <Address>تهران، میدان تجریش</Address>
+    <Description></Description>
+  </Customer>
+  <Customer>
+    <ID>7654</ID>
+    <FirstName>اصغر</FirstName>
+    <LastName>اصغری</LastName>
+    <MobileNo>9398766543</MobileNo>
+    <TelNo>2136028368</TelNo>
+    <Address>تهران، میدان هفتم تیر</Address>
+    <Description></Description>
+  </Customer>
+  <Customer>
+    <ID>7656</ID>
+    <FirstName>حمید</FirstName>
+    <LastName>فرنوش</LastName>
+    <MobileNo>9192348765</MobileNo>
+    <TelNo>2133645678</TelNo>
+    <Address>تهران، میدان آزادی</Address>
+    <Description></Description>
+  </Customer>
+  <Customer>
+    <ID>9090</ID>
+    <FirstName>محمد</FirstName>
+    <LastName>رفیعی</LastName>
+    <MobileNo>9120983456</MobileNo>
+    <TelNo>2199887766</TelNo>
+    <Address>تهران، میدان ولیعصر، </Address>
+    <Description></Description>
+  </Customer>
+</Customers>

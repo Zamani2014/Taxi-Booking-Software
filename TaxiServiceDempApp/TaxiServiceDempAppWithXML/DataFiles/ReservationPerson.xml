@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ReservationPersons>
+  <ReservationPerson>
+    <ID>1235</ID>
+    <FirstName>علیرضا</FirstName>
+    <LastName>زمانی</LastName>
+    <FatherName>ابوالفضل</FatherName>
+    <Shift>صبح</Shift>
+    <MobileNo>9128584771</MobileNo>
+    <TelNo>2133643817</TelNo>
+    <Description></Description>
+  </ReservationPerson>
+  <ReservationPerson>
+    <ID>3498</ID>
+    <FirstName>علی</FirstName>
+    <LastName>نویریان</LastName>
+    <FatherName>حسین</FatherName>
+    <Shift>عصر</Shift>
+    <MobileNo>9122240983</MobileNo>
+    <TelNo>2133786533</TelNo>
+    <Description></Description>
+  </ReservationPerson>
+
+</ReservationPersons>
